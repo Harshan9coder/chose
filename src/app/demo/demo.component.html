@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <div id="mySidebar" class="sidebar">
+      <!-- <a href="javascript:void(0)" class="closebtn" onclick="openNav()  ">×</a> -->
+      <div class="nav-icons">
+        <img class="mainlogo closebtn" [src]="mainlogo" alt="">
+        <i id="grid" class="fas fa-bars closebtn"  onclick="closeNav()"></i>
+        <i  id="dots" class="fas fa-ellipsis-v closebtn close-dots" onclick="openNav()"></i>
+
+      </div>
+
+      <section class="left-nav">
+        
+        <ul id="nav-item" class="nav-links">
+          <li><a routerLink="">Dashboard</a></li>
+          <li><a routerLink="/tag">Tags</a></li>
+          <li><a routerLink="/users">Users</a></li>
+        </ul>
+      </section>
+    </div>
+
+    <div id="main">
+      <header class="main-header">
+        <div class="left-header">
+          <div class="logo"></div>
+        </div>
+
+        <div class="right-header">
+          <img [src]="url" /><br />
+
+          <div class="dropdown" ngbDropdown>
+            <p class="proflie-name" id="dropdownConfig" ngbDropdownToggle>
+              harshan derangula
+            </p>
+            <div
+              class="tri-profile"
+              ngbDropdownMenu
+              aria-labelledby="dropdownConfig"
+            >
+              <a routerLink="/editprofile" ngbDropdownItem>Edit Profile</a>
+              <a routerLink="/login" ngbDropdownItem>Log in</a>
+            </div>
+          </div>
+        </div>
+      </header>
+    </div>
+  </body>
+</html>

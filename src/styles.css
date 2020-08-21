@@ -1,0 +1,35 @@
+/* You can add global styles to this file, and also import other style files */
+ @import "~bootstrap/dist/css/bootstrap.css";
+ @import "~@fortawesome/fontawesome-free/css/all.css";
+
+
+
+body {
+  line-height: 1;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+
+
+
+/* ol,
+ul { 
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+} */

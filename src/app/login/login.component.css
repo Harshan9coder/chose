@@ -1,0 +1,70 @@
+.login{
+    display: flex;
+    height: 100vh;
+}
+
+ .image-login{
+    width: 50%;
+} 
+
+
+.login p{
+    padding: 50px;
+    font-size: 22px;
+    color: #fff;
+}
+.log-sec{
+    background-color: black;
+   
+
+    float: right;
+    width: 50%;
+    color: #fff;
+    text-align: center;
+    
+  padding: 187px 30px
+}
+.form-label-group>input, .form-label-group>label {
+    padding: 10px 25px;
+    height: auto;
+    color: #002d39;
+    font-size: 18px;
+    font-weight: 300;
+    border-radius: 0px !important;
+}
+.form-control ,.btn-login{
+    width: 65%;
+    margin: 10px auto;
+
+    
+   
+}
+.btn-block[_ngcontent-mqu-c112] {
+    margin-top: 36px !important;
+}
+
+.btn-primary{
+    color: #fff;
+    background-color: #8E6FF6;
+    border-color: #8E6FF6;
+    color: #fff;
+    margin-top: 45px;
+    
+}
+.btn-primary a{
+   
+    color: #fff;
+    font-size: 14px;
+    
+}
+
+
+
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #8E6FF6;
+    border-color: #8E6FF6;
+    opacity: .8;
+}
+

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chaos</title>
+  </head>
+  <body>
+    <header class="main-header">
+      <div class="left-header">
+        <div class="logo">
+          <h1>Chaos</h1>
+         
+          
+        </div>
+      </div>
+
+      <div class="right-header">
+        <img [src]="url" /><br />
+
+        <div class="dropdown" ngbDropdown>
+          <p class="proflie-name" id="dropdownConfig" ngbDropdownToggle>
+            harshan derangula
+          </p>
+          <div
+            class="tri-profile"
+            ngbDropdownMenu
+            aria-labelledby="dropdownConfig"
+          >
+            <a routerLink="/editprofile" ngbDropdownItem>Edit Profile</a>
+            <a routerLink="/login" ngbDropdownItem>Log in</a>
+          </div>
+        </div>
+      </div>
+    </header>
+  </body>
+</html>
